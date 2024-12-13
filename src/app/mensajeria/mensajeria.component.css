@@ -1,0 +1,41 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    background-color: #444;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    text-align: center;
+    border-radius: 12px; 
+    padding: 20px;
+    font-weight: bold;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://www.colores.org.es/imagenes_colores/rojo-carmesi--ou.jpg');
+    background-size: cover; 
+    background-position: center; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #198090;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
