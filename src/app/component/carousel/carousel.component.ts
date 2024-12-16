@@ -19,19 +19,19 @@ export class CarouselComponent {
     this.carouselService.getProducts().then(productos => { this.productos = productos; console.log(productos) });
     this.responsiveOptions = [
       {
-        breakpoint: '1199px',
-        numVisible: 1,
-        numScroll: 1
+        breakpoint: '1024px',
+        numVisible: 3,
+        numScroll: 3,
       },
       {
-        breakpoint: '991px',
+        breakpoint: '768px',
         numVisible: 2,
-        numScroll: 1
+        numScroll: 2,
       },
       {
-        breakpoint: '767px',
+        breakpoint: '560px',
         numVisible: 1,
-        numScroll: 1
+        numScroll: 1,
       }
     ];
   }
