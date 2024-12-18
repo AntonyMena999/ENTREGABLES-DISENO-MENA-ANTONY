@@ -9,8 +9,8 @@ import { CuadrosComponent } from './cuadros/cuadros.component';
 
 const routes: Routes = [
   {
-    path: '',
-    component: BotonesComponent
+    path: 'mensajeria',
+    component: MensajeriaComponent
   },
   {
     path: 'botones',
@@ -38,7 +38,7 @@ const routes: Routes = [
   },
   {
     path: '**',
-    redirectTo: "botones"
+    redirectTo: "mensajeria"
   },
 ]
 
