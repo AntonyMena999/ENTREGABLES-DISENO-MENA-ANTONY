@@ -8,6 +8,7 @@ import { MenuItem, PrimeIcons  } from 'primeng/api';
  
 })
 export class BotonesComponent implements OnInit {
+  value: string = ''
 
   loading: boolean = false;
 

@@ -23,7 +23,7 @@ export class AppComponent implements OnInit {
       { label: 'Matrices', icon: 'pi pi-stop', command: () => this.redirect("mensajeria") },
       { label: 'Cuadros Responsivos', icon: 'pi pi-microsoft', command: () => this.redirect("cuadros") },
       { label: 'Cards', icon: 'pi pi-id-card', command: () => this.redirect("card") },
-      { label: 'Botones-Iconos', icon: 'pi pi-circle', command: () => this.redirect("botones") },
+      { label: 'Forms-Botones-Iconos', icon: 'pi pi-circle', command: () => this.redirect("botones") },
       { label: 'Carrusel', icon: 'pi pi-images', command: () => this.redirect("carrusel") },
       { label: 'Galeria-Imágen', icon: 'pi pi-image', command: () => this.redirect("galeria") },
       

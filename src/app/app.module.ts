@@ -29,6 +29,7 @@ import { MessageModule } from 'primeng/message';
 import { CardComponent } from './component/card/card.component';
 import { CardModule } from 'primeng/card';
 import { CuadrosComponent } from './cuadros/cuadros.component';
+import { InputTextModule } from 'primeng/inputtext';
 
 
 
@@ -59,6 +60,7 @@ import { CuadrosComponent } from './cuadros/cuadros.component';
     CarouselModule,
     HttpClientModule,  
     CardModule,
+    InputTextModule
 
   ],
   providers: [MessageService, CarouselService],
